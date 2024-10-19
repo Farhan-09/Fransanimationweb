@@ -1,0 +1,121 @@
+@font-face {
+    font-family: gilroy;
+    src: url(Gilroy-Regular.otf);
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+ 
+html,body {
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-family: gilroy;
+  overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  
+ 
+}
+#nav{
+
+    height: 80px;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 0px 20px;
+
+}
+#nav h1{
+    font-weight: 200;
+}
+
+#nav2{
+
+    display: flex;
+    
+    align-items: center;
+    gap: 15px;
+}
+
+#center {
+
+   text-transform: uppercase;
+ 
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 170px;
+    line-height: 1;
+   
+}
+#center h1{
+    font-size: 100px;
+    font-weight: 200;
+    position: relative;
+    z-index: 3;
+}
+
+#center h1:nth-child(1){
+
+    margin-left: 70px; 
+   
+}
+
+#center h1:nth-child(2){
+    text-align: center;
+}
+#center h1:nth-child(3){
+    text-align: center;
+}
+
+#tap{
+    position: absolute;
+    bottom: 0%;
+    height: 80px;
+    width: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 0px 20px;
+
+}
+#tap h1{
+    font-weight: 200;
+    font-size: 20px;
+    
+}
+#tap h4{
+    font-weight: 200;
+}
+
+img{
+height: 400px;
+object-fit: cover;
+position: absolute;
+top: 12%;
+left: 40%;
+border-radius: 10px;
+box-shadow: 3px 3px  30px rgb(238, 49, 49);
+
+}
+
+#img3{
+
+    transform: rotate(5deg);
+}
+#img2 {
+
+    transform: rotate(15deg);
+ }
+ #img1{
+
+    transform: rotate(20deg);
+}
